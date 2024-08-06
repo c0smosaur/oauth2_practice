@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    include: private
   h2: # H2 Setting Info
     console:
       enabled: true
